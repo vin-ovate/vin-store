@@ -1,6 +1,6 @@
 import {cart, addToCart} from './checkout/cart.js';
 import {products, loadProducts} from './checkout/products.js';
-import {formatCurrency} from './utils/money.js';
+import {formatCurrency} from './checkout/money.js';
 
 loadProducts(renderProductsGrid);
 
